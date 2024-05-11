@@ -11,7 +11,7 @@ body p {
 }
 
 .image-container img {
-    width: 100px; /* Adjust as needed */
+    width: 50px; /* Adjust as needed */
     transition: transform 0.3s ease;
 }
 
