@@ -11,7 +11,7 @@ body p {
 }
 
 .image-container img {
-    width: 35px; /* Set width to 35 pixels */
+    width: 75px; /* Set width to 35 pixels */
     height: auto; /* Maintain aspect ratio */
     transition: transform 0.3s ease;
 }
