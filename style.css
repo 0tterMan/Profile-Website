@@ -2,11 +2,10 @@ body {
     background-image: url('images/oldwinpixel.png');
     background-size: 1920px 1125px; /* Set the size of the background */
     background-repeat: no-repeat;
-
 }
 
 td {
-    padding: 25px;
+    padding: 20px;
     text-align: center;
     font-family: 'PixelFont', sans-serif;
 }
