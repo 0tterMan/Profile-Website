@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-image: url('images/oldwinpixel.png');
+    background-size: cover;
 }
 
 body p {
