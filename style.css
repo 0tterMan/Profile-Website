@@ -1,6 +1,8 @@
 body {
     background-image: url('images/oldwinpixel.png');
-    background-size: cover;
+    background-size: 1902px 1080px; /* Set the size of the background */
+    background-repeat: no-repeat;
+
 }
 
 body p {
