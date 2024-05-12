@@ -8,6 +8,7 @@ body {
 td {
     padding: 25px;
     text-align: center;
+    font-family: 'PixelFont', sans-serif;
 }
 
 .icon {
@@ -23,3 +24,11 @@ td {
     width: 40px;
     height: 40px;
 }
+
+.pixelify-sans-PixelFont {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
