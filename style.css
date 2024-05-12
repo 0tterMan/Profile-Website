@@ -1,33 +1,12 @@
 body {
     background-image: url('images/oldwinpixel.png');
-    background-size: 1902px 1125px; /* Set the size of the background */
+    background-size: 1920px 1125px; /* Set the size of the background */
     background-repeat: no-repeat;
 
 }
 
-body p {
-    color: black;
-}
-
-.image-container {
-    position: relative;
-}
-
-.image-container img {
-    width: 75px; /* Set width to 35 pixels */
-    height: auto; /* Maintain aspect ratio */
-    transition: transform 0.3s ease;
-}
-
-.image-container img:hover {
-    animation: bounce 0.5s infinite alternate; /* Bounce animation */
-}
-
-@keyframes bounce {
-    0% {
-        transform: translateY(0); /* Initial position */
-    }
-    100% {
-        transform: translateY(-10px); /* Bounce effect */
-    }
+.iconText {
+    color: white;
+    text-shadow: 2px 2px 4px black; /* X-offset, Y-offset, blur-radius, shadow-color */
+    text-align: center;
 }
