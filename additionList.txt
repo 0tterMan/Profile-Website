@@ -1,3 +1,7 @@
 I want to show that I can use the following technologies. . . 
 
 HTML, CSS, JS
+
+To do:
+sitemap
+SEO
