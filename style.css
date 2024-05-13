@@ -31,3 +31,13 @@ td {
     font-style: normal;
 }
 
+.bottomBar {
+    width: 100%;
+    background-color: white;
+}
+
+.bottomBar p {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
