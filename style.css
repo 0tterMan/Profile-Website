@@ -1,8 +1,13 @@
+
 body {
-    background-image: url('images/oldwinpixel.png');
-    background-size: 1920px 1125px; /* Set the size of the background */
-    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /*background-image: url('images/oldwinpixel.png');
+    background-size: 1920px 955px;
+    background-color: blue;*/
 }
+
 
 td {
     padding: 20px;
@@ -10,9 +15,20 @@ td {
     font-family: 'PixelFont', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+.bigDiv {
+    background-image: url('images/oldwinpixel.png');
+    background-size: 99.1vw 100vh;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
 .icon {
     color: white;
-    text-shadow: 2px 2px 4px black; /* X-offset, Y-offset, blur-radius, shadow-color */
+    text-shadow: 2px 2px 4px black; 
 }
 
 .icon div {
@@ -31,17 +47,12 @@ td {
     font-style: normal;
 }
 
-.bottomBar {
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    background-color: black;
-}
-
-.bottomBar p {
+.footer {
+    background-color: #000000;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
 }
