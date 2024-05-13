@@ -34,6 +34,8 @@ td {
 .bottomBar {
     width: 100%;
     left: 0;
+    bottom: 0;
+    position: absolute;
     background-color: black;
 }
 
