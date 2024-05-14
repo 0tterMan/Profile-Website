@@ -1,7 +1,6 @@
-I want to show that I can use the following technologies. . . 
+Change Next: 
 
-HTML, CSS, JS
-
-To do:
-sitemap
-SEO
+Make the exit button bigger
+make Resume header sit in the top left
+About me and Skills headers or P tags need to have top margins
+Add icon to Resume.pdf 
