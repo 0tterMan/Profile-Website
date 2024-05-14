@@ -6,3 +6,9 @@ About me and Skills headers or P tags need to have top margins
 Add icon to Resume.pdf 
 
 Fix font in OS based text and not content
+
+Maybe?
+Add live clock feature
+Add background music defaulted to mute
+    Make mute icon
+OS start button displays error message that just says "I'm good, but not makeapcinabrowser good"
