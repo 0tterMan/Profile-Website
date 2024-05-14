@@ -4,3 +4,5 @@ Make the exit button bigger
 make Resume header sit in the top left
 About me and Skills headers or P tags need to have top margins
 Add icon to Resume.pdf 
+
+Fix font in OS based text and not content
