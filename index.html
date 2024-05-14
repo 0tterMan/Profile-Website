@@ -8,26 +8,67 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <script src="script.js"></script> <!-- Add this line -->
 </head>
 <body>
   <div class="bigDiv">
     <table>
       <tr>
-        <td><div class="icon"><img src="images/AboutMe.png"><p class="pixelify-sans-PixelFont">About Me</p></div></td>
-        <td><div class="icon"><img src="images/Skills.png"><p class="pixelify-sans-PixelFont">Skills</p></div></td>
-        <td><div class="icon"><img src="images/resume.png"><p class="pixelify-sans-PixelFont">Resume.pdf</p></div></td>
+        <td class="aboutMe">
+          <div class="icon">
+              <img src="images/AboutMe.png">
+              <p class="pixelify-sans-PixelFont">About Me</p>
+          </div>
+        </td>
+        <td class="skills">
+          <div class="icon">
+              <img src="images/Skills.png">
+              <p class="pixelify-sans-PixelFont">Skills</p>
+          </div>
+        </td>
+        <td class="resume">
+          <div class="icon">
+              <img src="images/resume.png">
+              <p class="pixelify-sans-PixelFont">Resume.pdf</p>
+          </div>
+      </td>
+      
       </tr>
+
       <tr>
-        <td><a href="https://www.linkedin.com/in/lukejhulsebus/"><div class="icon"><img src="images/linkedinPIXEL.png"><p class="pixelify-sans-PixelFont">LinkedIn</p></div></a></td>
-        <td><a href="https://github.com/0tterMan"><div class="icon"><img src="images/GitHub.png"><p class="pixelify-sans-PixelFont">GitHub</p></div></a></td>
+        <td><a href="https://www.linkedin.com/in/lukejhulsebus/" target="_blank"><div class="icon"><img src="images/linkedinPIXEL.png"><p class="pixelify-sans-PixelFont">LinkedIn</p></div></a></td>
+        <td><a href="https://github.com/0tterMan" target="_blank"><div class="icon"><img src="images/GitHub.png"><p class="pixelify-sans-PixelFont">GitHub</p></div></a></td>
       </tr>
+
     </table>
   </div>
-<!--A div to help me test the size of things and where they are.-->
-<!--<div style="background-color: red; width: 100px; height: 1000px;">s</div>-->
+
+<div id="aboutMeContent" class="hidden">
+  <img id="aboutMeExitButton" class="exitButton" src="images/exit.png" alt="Exit Button" style="width: 1.5%; height: 3%;">
+  <!-- Content of the div -->
+  <h2>About Me</h2>
+  <p>This is some content about me.</p>
+</div>
+
+<div id="skillsContent" class="hidden">
+  <img id="skillsExitButton" class="exitButton" src="images/exit.png" alt="Exit Button" style="width: 1.5%; height: 3%;">
+  <!-- Content of the div -->
+  <h2>Skills</h2>
+  <p>This is some content about skills.</p>
+</div>
+
+<div id="resumeContent" class="hidden">
+  <img id="resumeExitButton" class="exitButton" src="images/exit.png" alt="Exit Button" style="width: 3.25%; height: 10%;">
+  <!-- Content of the div -->
+  <h2>Resume</h2>
+  <p>Would you like to download the resume?</p>
+  <button id="resumeYesButton">Yes</button>
+  <button id="resumeNoButton">No</button>
+</div>
+
 <div class="footer">
-    <p>Author: Luke Hulsebus<br>
-    <a href="ljhulsebus02@gmail.com">ljhulsebus02@gmail.com</a></p>
+  <p>Author: Luke Hulsebus<br>
+  <a href="ljhulsebus02@gmail.com">ljhulsebus02@gmail.com</a></p>
 </div>
 </body>
 </html>

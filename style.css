@@ -4,8 +4,8 @@ body {
     padding: 0;
     height: 100vh;
     /*background-image: url('images/oldwinpixel.png');
-    background-size: 1920px 955px;
-    background-color: blue;*/
+    background-size: 1920px 955px; /* Set the size of the background */
+    /*background-color: blue;*/
 }
 
 
@@ -28,7 +28,7 @@ a {
 
 .icon {
     color: white;
-    text-shadow: 2px 2px 4px black; 
+    text-shadow: 2px 2px 4px black; /* X-offset, Y-offset, blur-radius, shadow-color */
 }
 
 .icon div {
@@ -56,3 +56,56 @@ a {
     bottom: 0;
     width: 100%;
 }
+
+#aboutMeContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Ensure it appears above other elements */
+    background-image: url('images/window.png');
+    height: 55%;
+    width: 55%;
+}
+
+#skillsContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Ensure it appears above other elements */
+    background-image: url('images/window.png');
+    height: 55%;
+    width: 55%;
+}
+
+.hidden {
+    display: none;
+}
+
+#resumeContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Ensure it appears above other elements */
+    background-image: url('images/window.png');
+    height: auto;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+#resumeContent button {
+    margin: 10px;
+}
+
+.exitButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
