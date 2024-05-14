@@ -7,6 +7,9 @@ Add icon to Resume.pdf
 
 Fix font in OS based text and not content
 
+Skill section will have a catologue list of skills in alphabetical order, each will have a dropdown on click with an arrow to reveal a paragraph on my
+overall knowledge base of that particular skill or subject.
+
 Maybe?
 Add live clock feature
 Add background music defaulted to mute
