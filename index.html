@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-    <script src="script.js"></script> <!-- Add this line -->
+    <script src="script.js"></script>
 </head>
 <body>
   <div class="bigDiv">
@@ -85,15 +85,17 @@
 </div>
 
 <div id="skillsContent" class="hidden">
-  <img id="skillsExitButton" class="exitButton" src="images/exit.png" alt="Exit Button" style="width: 1.5%; height: 3%;">
-  <!-- Content of the div -->
-  <h2>Skills</h2>
-  <p>This is some content about skills.</p>
+  <div style="position: sticky;">
+    <h2 class="aboutMeHeader">My Skills</h2>
+    <img id="skillsExitButton" class="exitButton" src="images/exit.png" alt="Exit Button" style="width: 1.5%; height: 50%;">
+  </div>
+  <div style="overflow: auto; height: 85%; width: 95%; margin:auto;">
+    <!--Put the stuff here-->
+  </div>
 </div>
 
 <div id="resumeContent" class="hidden">
   <img id="resumeExitButton" class="exitButton" src="images/exit.png" alt="Exit Button" style="width: 3.25%; height: 10%;">
-  <!-- Content of the div -->
   <h2>Resume</h2>
   <p>Would you like to download the resume?</p>
   <button id="resumeYesButton">Yes</button>
